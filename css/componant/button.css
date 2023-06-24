@@ -1,0 +1,48 @@
+.btn {
+    font-family: "Open sans";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--white);
+    padding: 16px 56px;
+    border-radius: 56px;
+    background-color: var(--dark-blue);
+    border: 2px solid transparent;
+    text-decoration: none;
+}
+
+.btn-s {
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 24px;
+    font-weight: 700;
+    padding: 8px 40px;
+    border-radius: 56px;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    border: 2px solid transparent;
+}
+
+.btn-green {
+    color: var(--dark-blue);
+    background-color: var(--green);
+    border-color: var(--green);
+}
+
+.btn-white {
+    color: var(--dark-blue);
+    background-color: var(--white);
+    border-color: var(--white);
+}
+
+.btn-tr {
+    color: var(--dark-blue);
+    background-color: transparent;
+    border-color: var(--dark-blue);
+}
+
+.btn-tr-w {
+    color: var(--white);
+    background-color: transparent;
+    border-color: var(--white);
+}

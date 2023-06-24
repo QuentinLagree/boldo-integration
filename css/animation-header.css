@@ -1,0 +1,49 @@
+@keyframes showText {
+    100% {
+        transform: translateY(100%);
+    }
+}@keyframes showCallsButtons {
+    100% {
+        opacity: 1;
+    }
+}@keyframes showWindow {
+    30% {
+        opacity: 1;
+    }
+    
+    100% {
+        margin-left: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes showWindowTranslate {
+    30% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+@keyframes showNavBar {
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes defilement-rtl {
+    0% {
+        transform: translateX(-10vw);
+        /* position initiale à droite */
+    }
+
+    100% {
+        transform: translateX(calc(-200% - calc(2vw + 9.99vw)));
+        background-color: transparent;
+        /* position finale à gauche */
+    }
+}

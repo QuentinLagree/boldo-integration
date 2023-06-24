@@ -1,0 +1,107 @@
+section.carrousel  {
+    width: 100%;
+    height: auto;
+    background-color: #0A2640;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 10vw 10.2vw;
+}
+
+section.carrousel h4 {
+    font-family: "Manrope";
+    font-weight: 400;
+    font-size: 48px;
+    color: #fff;
+    line-height: 72px;
+    padding-right: 20%;
+    grid-area: 1 / 1 / 2 / 5;
+}
+
+.carrousel__carrousel-actions {
+    grid-area: 1 / 5 / 2 / 5;
+    transform: translateY(20%);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.carrousel__carrousel-actions__item  {
+    background:#fff;
+    border-radius: 50%;
+    padding: 13px 15px 13px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 14px;
+}
+
+.carrousel__carrousel-actions__item:nth-child(2) svg {
+    transform: rotate(180deg);
+}
+
+.carrousel__notices  {
+    margin-top: 72px;
+    grid-area: 2 / 1 / 5 / 6;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.carrousel__notices__notice {
+    display: flex;
+    font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.12);
+    padding: 40px;
+    width: 100%;
+}
+
+.carrousel__notices__notice:nth-child(2) {
+        margin: 0 22px;
+        
+}
+
+.carrousel__notices__notice q {
+        font-size: 24px;
+        line-height: 36px;
+        width: 100%;
+        margin-bottom: 40px;
+}
+
+.carrousel__notices__notice__author {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.carrousel__notices__notice__author img {
+    margin-right: 16px;
+}
+
+.carrousel__notices__notice__author__identity  {
+    padding: 10px 0;
+}
+
+
+.carrousel__notices__notice__author__identity h5{
+    font-size: 16px;
+}
+
+.carrousel__notices__notice__author__identity p {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 400;
+    bottom: 2px;
+}

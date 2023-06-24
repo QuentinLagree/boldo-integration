@@ -1,0 +1,110 @@
+section.services {
+    position: relative;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.services__baseline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Open sans";
+}
+
+.services__baseline h3 {
+    position: relative;
+    font-size: 20px;
+    color: #777777;
+    font-weight: 400;
+    margin: 82px 0 12px 0;
+}
+
+.services__baseline p {
+    font-family: "Manrope";
+    font-size: 48px;
+    
+    width: 50vw;
+    margin-bottom: 78px;
+}
+
+.services__grid {
+    display: flex;
+}
+
+.services__grid .feature {
+    text-align: left;
+    overflow: hidden;
+    margin: 0 50px;
+}
+
+.services__grid .feature img {
+    scale: 1;
+}
+
+.services__grid .feature h4 {
+    font-size: 24px;
+    font-family: "Open sans";
+    font-weight: 400;
+}
+
+.services__grid .feature p {
+    font-size: 18px;
+    font-family: "Open sans";
+    font-weight: 400;
+    width: 20vw;
+    color: #777777;
+    margin: 0;
+}
+
+.services__grid .feature a {
+    position: relative;
+    text-decoration: none;
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0A2640;
+    font-family: "Open sans";
+    font-weight: 700;
+    border-bottom: 1px solid #0A2640;
+    padding-bottom: 9px;
+    width: 11vw;
+    z-index: 1;
+    transition: .5s;
+}
+
+.services__grid .feature a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    padding-bottom: 0px;
+    background-color: #69E6A6;
+    z-index: -1;
+    transition: .5s;
+}
+
+.services__grid .feature a svg {
+    margin-left: 12px;
+}
+
+.services__grid .feature a svg path { transition: .5s; }
+
+.services__grid .feature a:hover {
+    border-color: #69E6A6;
+    color: #fff;
+}
+
+.services__grid .feature a:hover svg path{
+    stroke: #fff;
+}
+
+.services__grid .feature a:hover::before {
+    height: 100%;
+    padding-bottom: 9px;
+}

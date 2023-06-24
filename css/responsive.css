@@ -1,0 +1,25 @@
+@media only screen and (max-width: 875px)    {
+    .header__navigation__logo-content h1 {
+        display: none;
+    }
+    .header__navigation__content__links {
+        display: none;
+    }
+    .header__navigation__content__burger {
+        display: block;
+    }
+
+    nav[menu-mobile] {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .header__content__baseline {
+        justify-content: start;
+    }
+
+    .header__content {
+        flex-direction: column;
+    }
+}

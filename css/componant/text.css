@@ -1,0 +1,34 @@
+.heading {
+    font-family: "Manrope";
+    font-weight: 400;
+}
+
+.h-xxl {
+    font-size: 38px;    
+    line-height: 72px;
+}
+
+.h-xl {
+    font-size: 22px;
+    line-height: 46px;
+}
+
+.paraph {
+    font-family: "Open sans";
+    font-weight: 400;
+}
+
+.p-m {
+    font-size: 14px;
+    line-height: 36px;
+}
+
+.p-s {
+    font-size: 10px;
+    line-height: 32px;
+}
+
+.p-xs {
+    font-size: 6px;
+    line-height: 28px;
+}
